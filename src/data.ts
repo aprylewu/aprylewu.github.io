@@ -137,14 +137,18 @@ export const researchIntro =
 
 export const papers: Paper[] = [
   {
-    short: "AVTIME",
-    title: "Reinforcing Long-Video Understanding with Bidirectional Time-Semantic Consistency Reward",
-    authors: ["Mingyang Wu", "Kaituo Feng", "Bohao Li", "Kaixiong Gong", "Xiangyu Yue"],
-    venue: "Under review",
+    short: "AVTime",
+    title: "Reinforcing Dense Audio-Visual Captions with Bidirectional Alignment",
+    authors: ["Mingyang Wu", "Kaituo Feng", "Bohao Li", "Kaixiong Gong", "Zihao Yin", "Xiangyu Yue"],
+    venue: "arXiv",
     year: 2026,
-    status: "review",
-    tldr: "Audiovisual LLMs for dense video captioning and temporal grounding, trained on AVTime-50K: 49,977 videos and 1.87M timestamped events.",
-    links: [],
+    status: "preprint",
+    tldr: "Timestamped audio-visual captions for long videos, trained with a reward that checks time and events in both directions. Comes with AVTime-50K (49,977 videos, 1.87M timestamped events) and the AVTime-Bench benchmark.",
+    links: [
+      { label: "arXiv", href: "https://arxiv.org/abs/2610.26046" },
+      { label: "PDF", href: "https://arxiv.org/pdf/2610.26046" },
+      { label: "Models & data", href: "https://huggingface.co/collections/Apryle/avtime" },
+    ],
   },
   {
     short: "AVCap",
