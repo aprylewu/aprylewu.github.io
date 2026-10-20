@@ -164,16 +164,6 @@ export const papers: Paper[] = [
     ],
   },
   {
-    short: "Omni-Physics",
-    title: "Reinforcing Audio-Essential Physical Understanding via Audiovisual Reward",
-    authors: ["Mingyang Wu", "Sihan Qin", "Kaituo Feng", "et al."],
-    venue: "Under review",
-    year: 2026,
-    status: "review",
-    tldr: "Reward design for physical reasoning that only works if the model actually listens.",
-    links: [],
-  },
-  {
     short: "MindPilot",
     title: "Closed-loop Visual Stimulation Optimization for Brain Modulation with EEG-guided Diffusion",
     authors: [
